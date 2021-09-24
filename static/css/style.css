@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 /*---------Start of tags style*/
 body{
   color: #555555;
   max-width: 600px;
   margin-right: auto;
   margin-left: auto;
+
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 h2{
@@ -136,12 +139,17 @@ ul.weather{
   width: 100%;
 }
 ul.weather li{
-  list-style: none;
-  margin: 3px 0 3px 0;
   padding: 2%;
-  border-radius: 3%;
+  margin: 3px 0 3px 0;
+
+  border-radius: 2% / 33%;
   background-color: lightgray;
+  /*background: linear-gradient(70deg, blue, pink);*/
+  list-style: none;
+
   color: white;
+
+  display: block;
 }
 ul.weather span{
   float: right;
